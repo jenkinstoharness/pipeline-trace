@@ -1,0 +1,357 @@
+{
+  "traceId": "b222737b7b18a0191deffb5e5c15f404",
+  "spanId": "265b7d96da9f87d4",
+  "harnessVersion": "2.18.12-SNAPSHOT",
+  "children": [
+    {
+      "spanId": "d8a8d8707ad5ec20",
+      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+      "parent": "op-filedownloadoperation",
+      "all-info": "span(name: Phase: Start, spanId: d8a8d8707ad5ec20, parentSpanId: 265b7d96da9f87d4, traceId: b222737b7b18a0191deffb5e5c15f404, attr: )",
+      "name": "op-filedownloadoperation #3",
+      "attributesMap": {},
+      "type": "Run Phase Span",
+      "parentSpanId": "265b7d96da9f87d4",
+      "spanName": "Phase: Start"
+    },
+    {
+      "spanId": "86311e5feb4a6b0c",
+      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+      "parent": "op-filedownloadoperation",
+      "all-info": "span(name: Phase: Run, spanId: 86311e5feb4a6b0c, parentSpanId: 265b7d96da9f87d4, traceId: b222737b7b18a0191deffb5e5c15f404, attr: )",
+      "children": [
+        {
+          "spanId": "8fd318aacd908e04",
+          "traceId": "b222737b7b18a0191deffb5e5c15f404",
+          "parent": "op-filedownloadoperation",
+          "all-info": "span(name: Agent Allocation, spanId: 8fd318aacd908e04, parentSpanId: 86311e5feb4a6b0c, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: FlowNodeMonitoringAction{traceId='b222737b7b18a0191deffb5e5c15f404', spanId='e8936a792f7436c8', span.name='Agent'}:FlowNodeMonitoringAction{traceId='b222737b7b18a0191deffb5e5c15f404', spanId='e8936a792f7436c8', span.name='Agent'};harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@2c1045f0:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@2c1045f0;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@ea64373:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@ea64373;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff:org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f;harness-others:;jenkins.pipeline.step.id:3;jenkins.pipeline.step.name:agent.allocate;jenkins.pipeline.step.plugin.name:workflow-durable-task-step;jenkins.pipeline.step.plugin.version:1353.v1891a_b_01da_18;jenkins.pipeline.step.type:node;)",
+          "name": "op-filedownloadoperation #3",
+          "attributesMap": {
+            "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@ea64373": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@ea64373",
+            "harness-others": "",
+            "jenkins.pipeline.step.name": "agent.allocate",
+            "jenkins.pipeline.step.id": "3",
+            "jenkins.pipeline.step.type": "node",
+            "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@2c1045f0": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@2c1045f0",
+            "harness-attribute-extra-pip: FlowNodeMonitoringAction{traceId='b222737b7b18a0191deffb5e5c15f404', spanId='e8936a792f7436c8', span.name='Agent'}": "FlowNodeMonitoringAction{traceId='b222737b7b18a0191deffb5e5c15f404', spanId='e8936a792f7436c8', span.name='Agent'}",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f",
+            "jenkins.pipeline.step.plugin.name": "workflow-durable-task-step",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff": "org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff",
+            "jenkins.pipeline.step.plugin.version": "1353.v1891a_b_01da_18"
+          },
+          "type": "Run Phase Span",
+          "parentSpanId": "86311e5feb4a6b0c",
+          "spanName": "Agent Allocation"
+        },
+        {
+          "spanId": "e8936a792f7436c8",
+          "traceId": "b222737b7b18a0191deffb5e5c15f404",
+          "parent": "op-filedownloadoperation",
+          "all-info": "span(name: Agent, spanId: e8936a792f7436c8, parentSpanId: 86311e5feb4a6b0c, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@50371368:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@50371368;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@64a6d30d:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@64a6d30d;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff:org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f;harness-others:;jenkins.credentials.id:[org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f, org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff, com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@16d044cf, io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@223f3903];jenkins.pipeline.step.id:3;jenkins.pipeline.step.name:agent;jenkins.pipeline.step.plugin.name:workflow-durable-task-step;jenkins.pipeline.step.plugin.version:1353.v1891a_b_01da_18;jenkins.pipeline.step.type:node;)",
+          "children": [
+            {
+              "spanId": "c63683b0e286e8d0",
+              "traceId": "b222737b7b18a0191deffb5e5c15f404",
+              "parent": "op-filedownloadoperation",
+              "all-info": "span(name: Stage: null, spanId: c63683b0e286e8d0, parentSpanId: e8936a792f7436c8, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@212b5266:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@212b5266;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@59bfbb52:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@59bfbb52;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@21d9c0a8:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@21d9c0a8;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@6cfd2a19:org.jenkinsci.plugins.workflow.actions.TimingAction@6cfd2a19;harness-others:;jenkins.pipeline.step.type:node;)",
+              "name": "op-filedownloadoperation #3",
+              "attributesMap": {
+                "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@212b5266": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@212b5266",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@21d9c0a8": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@21d9c0a8",
+                "harness-others": "",
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@59bfbb52": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@59bfbb52",
+                "jenkins.pipeline.step.type": "node",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@6cfd2a19": "org.jenkinsci.plugins.workflow.actions.TimingAction@6cfd2a19"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "e8936a792f7436c8",
+              "spanName": "Stage: null"
+            },
+            {
+              "spanId": "31f92aa880a0ef47",
+              "traceId": "b222737b7b18a0191deffb5e5c15f404",
+              "parent": "op-filedownloadoperation",
+              "all-info": "span(name: Stage: null, spanId: 31f92aa880a0ef47, parentSpanId: e8936a792f7436c8, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@52efca6a:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@52efca6a;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@78b1a413:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@78b1a413;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@b46c373:org.jenkinsci.plugins.workflow.actions.TimingAction@b46c373;harness-others:;jenkins.pipeline.step.type:node;)",
+              "name": "op-filedownloadoperation #3",
+              "attributesMap": {
+                "harness-others": "",
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@78b1a413": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@78b1a413",
+                "jenkins.pipeline.step.type": "node",
+                "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@52efca6a": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@52efca6a",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@b46c373": "org.jenkinsci.plugins.workflow.actions.TimingAction@b46c373"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "e8936a792f7436c8",
+              "spanName": "Stage: null"
+            },
+            {
+              "spanId": "a34fbfd4b6573aa4",
+              "traceId": "b222737b7b18a0191deffb5e5c15f404",
+              "parent": "op-filedownloadoperation",
+              "all-info": "span(name: Stage: null, spanId: a34fbfd4b6573aa4, parentSpanId: e8936a792f7436c8, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute:{\n  \"name\" : \"Prepare Directory\"\n};harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@8d3f382:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@8d3f382;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6faf1283:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6faf1283;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@59f54dcb:org.jenkinsci.plugins.workflow.actions.TimingAction@59f54dcb;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@3a66f78b:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@3a66f78b;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+              "children": [
+                {
+                  "spanId": "80de4c46ce3444b5",
+                  "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                  "parent": "op-filedownloadoperation",
+                  "all-info": "span(name: Stage: null, spanId: 80de4c46ce3444b5, parentSpanId: a34fbfd4b6573aa4, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36fb76b5:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36fb76b5;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@2a7ba586:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@2a7ba586;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@6e615447:org.jenkinsci.plugins.workflow.actions.TimingAction@6e615447;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+                  "name": "op-filedownloadoperation #3",
+                  "attributesMap": {
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@6e615447": "org.jenkinsci.plugins.workflow.actions.TimingAction@6e615447",
+                    "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                    "jenkins.pipeline.step.type": "stage",
+                    "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@2a7ba586": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@2a7ba586",
+                    "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36fb76b5": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36fb76b5"
+                  },
+                  "type": "Run Phase Span",
+                  "parentSpanId": "a34fbfd4b6573aa4",
+                  "spanName": "Stage: null"
+                },
+                {
+                  "spanId": "3076c27d67f662c2",
+                  "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                  "parent": "op-filedownloadoperation",
+                  "all-info": "span(name: Stage: Prepare Directory, spanId: 3076c27d67f662c2, parentSpanId: a34fbfd4b6573aa4, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@781f373e:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@781f373e;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@66a6c26e:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@66a6c26e;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@23796350:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@23796350;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.LabelAction@634fbd1e:org.jenkinsci.plugins.workflow.actions.LabelAction@634fbd1e;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@108664c8:org.jenkinsci.plugins.workflow.actions.TimingAction@108664c8;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.id:6;jenkins.pipeline.step.name:Prepare Directory;jenkins.pipeline.step.plugin.name:pipeline-stage-step;jenkins.pipeline.step.plugin.version:312.v8cd10304c27a_;jenkins.pipeline.step.type:stage;)",
+                  "children": [
+                    {
+                      "spanId": "02930de6fc481ebd",
+                      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                      "parent": "op-filedownloadoperation",
+                      "all-info": "span(name: Stage: null, spanId: 02930de6fc481ebd, parentSpanId: 3076c27d67f662c2, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@191bf46c:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@191bf46c;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5be4b701:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5be4b701;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@5590c490:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@5590c490;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@611193f:org.jenkinsci.plugins.workflow.actions.TimingAction@611193f;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+                      "name": "op-filedownloadoperation #3",
+                      "attributesMap": {
+                        "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@191bf46c": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@191bf46c",
+                        "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@611193f": "org.jenkinsci.plugins.workflow.actions.TimingAction@611193f",
+                        "jenkins.pipeline.step.type": "stage",
+                        "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5be4b701": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@5be4b701",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@5590c490": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@5590c490"
+                      },
+                      "type": "Run Phase Span",
+                      "parentSpanId": "3076c27d67f662c2",
+                      "spanName": "Stage: null"
+                    },
+                    {
+                      "spanId": "8e78e0228e845411",
+                      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                      "parent": "op-filedownloadoperation",
+                      "all-info": "span(name: sh, spanId: 8e78e0228e845411, parentSpanId: 3076c27d67f662c2, traceId: b222737b7b18a0191deffb5e5c15f404, attr: ci.pipeline.run.user:SYSTEM;harness-attribute:{\n  \"script\" : \"mkdir -p downloads\"\n};harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36a8d4f9:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36a8d4f9;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@54f30303:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@54f30303;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@183f40d7:org.jenkinsci.plugins.workflow.actions.TimingAction@183f40d7;harness-others:-WATCHING_RECURRENCE_PERIOD-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep WATCHING_RECURRENCE_PERIOD-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.WATCHING_RECURRENCE_PERIOD-long-USE_WATCHING-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep USE_WATCHING-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.USE_WATCHING-boolean-REMOTE_TIMEOUT-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep REMOTE_TIMEOUT-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.REMOTE_TIMEOUT-long;jenkins.pipeline.step.id:7;jenkins.pipeline.step.name:Shell Script;jenkins.pipeline.step.plugin.name:workflow-durable-task-step;jenkins.pipeline.step.plugin.version:1353.v1891a_b_01da_18;jenkins.pipeline.step.type:sh;)",
+                      "name": "op-filedownloadoperation #3",
+                      "attributesMap": {
+                        "harness-others": "-WATCHING_RECURRENCE_PERIOD-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep WATCHING_RECURRENCE_PERIOD-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.WATCHING_RECURRENCE_PERIOD-long-USE_WATCHING-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep USE_WATCHING-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.USE_WATCHING-boolean-REMOTE_TIMEOUT-staticField org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep REMOTE_TIMEOUT-org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep.REMOTE_TIMEOUT-long",
+                        "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36a8d4f9": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@36a8d4f9",
+                        "jenkins.pipeline.step.name": "Shell Script",
+                        "ci.pipeline.run.user": "SYSTEM",
+                        "jenkins.pipeline.step.id": "7",
+                        "jenkins.pipeline.step.type": "sh",
+                        "harness-attribute": "{\n  \"script\" : \"mkdir -p downloads\"\n}",
+                        "jenkins.pipeline.step.plugin.name": "workflow-durable-task-step",
+                        "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@54f30303": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@54f30303",
+                        "jenkins.pipeline.step.plugin.version": "1353.v1891a_b_01da_18",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@183f40d7": "org.jenkinsci.plugins.workflow.actions.TimingAction@183f40d7"
+                      },
+                      "type": "Run Phase Span",
+                      "parentSpanId": "3076c27d67f662c2",
+                      "parameterMap": {"script": "mkdir -p downloads"},
+                      "spanName": "sh"
+                    }
+                  ],
+                  "name": "op-filedownloadoperation #3",
+                  "attributesMap": {
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@108664c8": "org.jenkinsci.plugins.workflow.actions.TimingAction@108664c8",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@23796350": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@23796350",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.LabelAction@634fbd1e": "org.jenkinsci.plugins.workflow.actions.LabelAction@634fbd1e",
+                    "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                    "jenkins.pipeline.step.name": "Prepare Directory",
+                    "jenkins.pipeline.step.id": "6",
+                    "jenkins.pipeline.step.type": "stage",
+                    "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@66a6c26e": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@66a6c26e",
+                    "jenkins.pipeline.step.plugin.name": "pipeline-stage-step",
+                    "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@781f373e": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@781f373e",
+                    "jenkins.pipeline.step.plugin.version": "312.v8cd10304c27a_"
+                  },
+                  "type": "Run Phase Span",
+                  "parentSpanId": "a34fbfd4b6573aa4",
+                  "spanName": "Stage: Prepare Directory"
+                }
+              ],
+              "name": "op-filedownloadoperation #3",
+              "attributesMap": {
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@59f54dcb": "org.jenkinsci.plugins.workflow.actions.TimingAction@59f54dcb",
+                "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@8d3f382": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@8d3f382",
+                "jenkins.pipeline.step.type": "stage",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@3a66f78b": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@3a66f78b",
+                "harness-attribute": "{\n  \"name\" : \"Prepare Directory\"\n}",
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6faf1283": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6faf1283"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "e8936a792f7436c8",
+              "parameterMap": {"name": "Prepare Directory"},
+              "spanName": "Stage: null"
+            },
+            {
+              "spanId": "d2782412eed78263",
+              "traceId": "b222737b7b18a0191deffb5e5c15f404",
+              "parent": "op-filedownloadoperation",
+              "all-info": "span(name: Stage: null, spanId: d2782412eed78263, parentSpanId: e8936a792f7436c8, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute:{\n  \"name\" : \"Download File\"\n};harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@1c3538ed:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@1c3538ed;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@70beacb6:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@70beacb6;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@9332fc3:org.jenkinsci.plugins.workflow.actions.TimingAction@9332fc3;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@f10cfa6:org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@f10cfa6;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+              "children": [
+                {
+                  "spanId": "421bd5a34319522d",
+                  "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                  "parent": "op-filedownloadoperation",
+                  "all-info": "span(name: Stage: null, spanId: 421bd5a34319522d, parentSpanId: d2782412eed78263, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@7e5a7b1b:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@7e5a7b1b;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@4545a21d:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@4545a21d;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3bce0a51:org.jenkinsci.plugins.workflow.actions.TimingAction@3bce0a51;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+                  "name": "op-filedownloadoperation #3",
+                  "attributesMap": {
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3bce0a51": "org.jenkinsci.plugins.workflow.actions.TimingAction@3bce0a51",
+                    "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                    "jenkins.pipeline.step.type": "stage",
+                    "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@4545a21d": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@4545a21d",
+                    "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@7e5a7b1b": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@7e5a7b1b"
+                  },
+                  "type": "Run Phase Span",
+                  "parentSpanId": "d2782412eed78263",
+                  "spanName": "Stage: null"
+                },
+                {
+                  "spanId": "0a658dd00c60c10e",
+                  "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                  "parent": "op-filedownloadoperation",
+                  "all-info": "span(name: Stage: Download File, spanId: 0a658dd00c60c10e, parentSpanId: d2782412eed78263, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@30094bfd:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@30094bfd;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@406806da:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@406806da;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@448fe4a9:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@448fe4a9;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.LabelAction@45c6aaec:org.jenkinsci.plugins.workflow.actions.LabelAction@45c6aaec;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@f457375:org.jenkinsci.plugins.workflow.actions.TimingAction@f457375;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.id:11;jenkins.pipeline.step.name:Download File;jenkins.pipeline.step.plugin.name:pipeline-stage-step;jenkins.pipeline.step.plugin.version:312.v8cd10304c27a_;jenkins.pipeline.step.type:stage;)",
+                  "children": [
+                    {
+                      "spanId": "68a7acef11a78e3b",
+                      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                      "parent": "op-filedownloadoperation",
+                      "all-info": "span(name: Stage: null, spanId: 68a7acef11a78e3b, parentSpanId: 0a658dd00c60c10e, traceId: b222737b7b18a0191deffb5e5c15f404, attr: harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@471efe20:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@471efe20;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@dd77051:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@dd77051;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7a953bdb:org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7a953bdb;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3ca258b0:org.jenkinsci.plugins.workflow.actions.TimingAction@3ca258b0;harness-others:-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer;jenkins.pipeline.step.type:stage;)",
+                      "name": "op-filedownloadoperation #3",
+                      "attributesMap": {
+                        "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7a953bdb": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@7a953bdb",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@3ca258b0": "org.jenkinsci.plugins.workflow.actions.TimingAction@3ca258b0",
+                        "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@471efe20": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@471efe20",
+                        "jenkins.pipeline.step.type": "stage",
+                        "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@dd77051": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@dd77051"
+                      },
+                      "type": "Run Phase Span",
+                      "parentSpanId": "0a658dd00c60c10e",
+                      "spanName": "Stage: null"
+                    },
+                    {
+                      "spanId": "d6f89b0cfce3794a",
+                      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+                      "parent": "op-filedownloadoperation",
+                      "all-info": "span(name: fileOperations, spanId: d6f89b0cfce3794a, parentSpanId: 0a658dd00c60c10e, traceId: b222737b7b18a0191deffb5e5c15f404, attr: ci.pipeline.run.user:SYSTEM;harness-attribute:{\n  \"delegate\" : {\n    \"symbol\" : \"fileOperations\",\n    \"klass\" : null,\n    \"arguments\" : {\n      \"<anonymous>\" : [ {\n        \"symbol\" : \"fileDownloadOperation\",\n        \"klass\" : null,\n        \"arguments\" : {\n          \"url\" : \"https://github.com/git/git/archive/refs/heads/master.zip\",\n          \"targetLocation\" : \"downloads/\",\n          \"targetFileName\" : \"git-master.zip\",\n          \"userName\" : \"\",\n          \"password\" : \"\"\n        },\n        \"model\" : null,\n        \"interpolatedStrings\" : [ ]\n      } ]\n    },\n    \"model\" : null\n  }\n};harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@16860aad:com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@16860aad;harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6a7cf918:io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6a7cf918;harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@5b79274d:org.jenkinsci.plugins.workflow.actions.TimingAction@5b79274d;harness-others:-delegate-field org.jenkinsci.plugins.workflow.steps.CoreStep delegate-org.jenkinsci.plugins.workflow.steps.CoreStep.delegate-interface jenkins.tasks.SimpleBuildStep;jenkins.pipeline.step.id:12;jenkins.pipeline.step.name:File Operations;jenkins.pipeline.step.plugin.name:file-operations;jenkins.pipeline.step.plugin.version:266.v9d4e1eb_235b_a_;jenkins.pipeline.step.type:fileOperations;)",
+                      "name": "op-filedownloadoperation #3",
+                      "attributesMap": {
+                        "harness-others": "-delegate-field org.jenkinsci.plugins.workflow.steps.CoreStep delegate-org.jenkinsci.plugins.workflow.steps.CoreStep.delegate-interface jenkins.tasks.SimpleBuildStep",
+                        "jenkins.pipeline.step.name": "File Operations",
+                        "ci.pipeline.run.user": "SYSTEM",
+                        "jenkins.pipeline.step.id": "12",
+                        "jenkins.pipeline.step.type": "fileOperations",
+                        "harness-attribute": "{\n  \"delegate\" : {\n    \"symbol\" : \"fileOperations\",\n    \"klass\" : null,\n    \"arguments\" : {\n      \"<anonymous>\" : [ {\n        \"symbol\" : \"fileDownloadOperation\",\n        \"klass\" : null,\n        \"arguments\" : {\n          \"url\" : \"https://github.com/git/git/archive/refs/heads/master.zip\",\n          \"targetLocation\" : \"downloads/\",\n          \"targetFileName\" : \"git-master.zip\",\n          \"userName\" : \"\",\n          \"password\" : \"\"\n        },\n        \"model\" : null,\n        \"interpolatedStrings\" : [ ]\n      } ]\n    },\n    \"model\" : null\n  }\n}",
+                        "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@16860aad": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@16860aad",
+                        "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6a7cf918": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@6a7cf918",
+                        "jenkins.pipeline.step.plugin.name": "file-operations",
+                        "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@5b79274d": "org.jenkinsci.plugins.workflow.actions.TimingAction@5b79274d",
+                        "jenkins.pipeline.step.plugin.version": "266.v9d4e1eb_235b_a_"
+                      },
+                      "type": "Run Phase Span",
+                      "parentSpanId": "0a658dd00c60c10e",
+                      "parameterMap": {"delegate": {
+                        "symbol": "fileOperations",
+                        "klass": null,
+                        "arguments": {"<anonymous>": [{
+                          "symbol": "fileDownloadOperation",
+                          "klass": null,
+                          "interpolatedStrings": [],
+                          "arguments": {
+                            "password": "",
+                            "targetFileName": "git-master.zip",
+                            "targetLocation": "downloads/",
+                            "userName": "",
+                            "url": "https://github.com/git/git/archive/refs/heads/master.zip"
+                          },
+                          "model": null
+                        }]},
+                        "model": null
+                      }},
+                      "spanName": "fileOperations"
+                    }
+                  ],
+                  "name": "op-filedownloadoperation #3",
+                  "attributesMap": {
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@f457375": "org.jenkinsci.plugins.workflow.actions.TimingAction@f457375",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@448fe4a9": "org.jenkinsci.plugins.workflow.actions.BodyInvocationAction@448fe4a9",
+                    "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                    "jenkins.pipeline.step.name": "Download File",
+                    "jenkins.pipeline.step.id": "11",
+                    "jenkins.pipeline.step.type": "stage",
+                    "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@406806da": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@406806da",
+                    "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.LabelAction@45c6aaec": "org.jenkinsci.plugins.workflow.actions.LabelAction@45c6aaec",
+                    "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@30094bfd": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@30094bfd",
+                    "jenkins.pipeline.step.plugin.name": "pipeline-stage-step",
+                    "jenkins.pipeline.step.plugin.version": "312.v8cd10304c27a_"
+                  },
+                  "type": "Run Phase Span",
+                  "parentSpanId": "d2782412eed78263",
+                  "spanName": "Stage: Download File"
+                }
+              ],
+              "name": "op-filedownloadoperation #3",
+              "attributesMap": {
+                "harness-others": "-name-field org.jenkinsci.plugins.workflow.support.steps.StageStep name-org.jenkinsci.plugins.workflow.support.steps.StageStep.name-class java.lang.String-concurrency-field org.jenkinsci.plugins.workflow.support.steps.StageStep concurrency-org.jenkinsci.plugins.workflow.support.steps.StageStep.concurrency-class java.lang.Integer",
+                "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@1c3538ed": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@1c3538ed",
+                "jenkins.pipeline.step.type": "stage",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@f10cfa6": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@f10cfa6",
+                "harness-attribute": "{\n  \"name\" : \"Download File\"\n}",
+                "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@9332fc3": "org.jenkinsci.plugins.workflow.actions.TimingAction@9332fc3",
+                "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@70beacb6": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@70beacb6"
+              },
+              "type": "Run Phase Span",
+              "parentSpanId": "e8936a792f7436c8",
+              "parameterMap": {"name": "Download File"},
+              "spanName": "Stage: null"
+            }
+          ],
+          "name": "op-filedownloadoperation #3",
+          "attributesMap": {
+            "harness-attribute-extra-pip: com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@50371368": "com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@50371368",
+            "harness-others": "",
+            "jenkins.pipeline.step.name": "agent",
+            "jenkins.pipeline.step.id": "3",
+            "jenkins.pipeline.step.type": "node",
+            "jenkins.credentials.id": "[org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f, org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff, com.cloudbees.workflow.rest.endpoints.FlowNodeAPI@16d044cf, io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@223f3903]",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f": "org.jenkinsci.plugins.workflow.support.actions.LogStorageAction@7dc2192f",
+            "jenkins.pipeline.step.plugin.name": "workflow-durable-task-step",
+            "harness-attribute-extra-pip: org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff": "org.jenkinsci.plugins.workflow.actions.TimingAction@c1ccfff",
+            "harness-attribute-extra-pip: io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@64a6d30d": "io.jenkins.plugins.opentelemetry.MigrateHarnessUrlChildAction@64a6d30d",
+            "jenkins.pipeline.step.plugin.version": "1353.v1891a_b_01da_18"
+          },
+          "type": "Run Phase Span",
+          "parentSpanId": "86311e5feb4a6b0c",
+          "spanName": "Agent"
+        }
+      ],
+      "name": "op-filedownloadoperation #3",
+      "attributesMap": {},
+      "type": "Run Phase Span",
+      "parentSpanId": "265b7d96da9f87d4",
+      "spanName": "Phase: Run"
+    },
+    {
+      "spanId": "b623076fea049edd",
+      "traceId": "b222737b7b18a0191deffb5e5c15f404",
+      "parent": "op-filedownloadoperation",
+      "all-info": "span(name: Phase: Finalise, spanId: b623076fea049edd, parentSpanId: 265b7d96da9f87d4, traceId: b222737b7b18a0191deffb5e5c15f404, attr: )",
+      "name": "op-filedownloadoperation #3",
+      "attributesMap": {},
+      "type": "Run Phase Span",
+      "parentSpanId": "265b7d96da9f87d4",
+      "spanName": "Phase: Finalise"
+    }
+  ],
+  "name": "op-filedownloadoperation #3",
+  "parentSpanId": "0000000000000000",
+  "spanName": "op-filedownloadoperation #3"
+}
